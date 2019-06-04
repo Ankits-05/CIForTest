@@ -2,5 +2,7 @@
 ssh ubuntu@ec2-34-227-117-251.compute-1.amazonaws.com <<EOF  
  cd ~/CIForTest 
  git pull    
+ npm install      
+ npm start
  exit       
 EOF
