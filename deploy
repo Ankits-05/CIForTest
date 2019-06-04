@@ -2,8 +2,7 @@
 ssh ubuntu@ec2-34-227-117-251.compute-1.amazonaws.com <<EOF  
 echo "Hello World"      
  cd ~/CIForTest 
- git pull    
- echo $PATH
+ git pull
  npm install      
  npm start
  exit       
